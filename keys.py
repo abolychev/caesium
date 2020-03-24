@@ -66,7 +66,7 @@ r_save = [ord("w"), ord("W")]
 # добавить сообщение в избранные
 r_favorites = [ord("f"), ord("F")]
 # ответить с цитированием
-r_quote = [ord("q"), ord("Q")]
+r_quote = [ord("r"), ord("R")]
 # показать messagebox с темой сообщения
 r_subj = [ord("s"), ord("S")]
 # показать msgid и адрес
@@ -82,7 +82,7 @@ r_to_drafts = [ord("d"), ord("D")]
 # список сообщений
 r_list = [ord("l"), ord("L")]
 # вернуться на экран выбора эхоконференции
-r_quit = [27]
+r_quit = [27, ord("q"), ord("Q")]
 
 ## Клавиши для просмотра исходящих и черновиков
 # редактировать сообщение
@@ -93,4 +93,4 @@ o_edit = [ord("e"), ord("E")]
 f_delete = [curses.KEY_DC]
 
 ## закрыть клиент
-g_quit = [curses.KEY_F10]
+g_quit = [curses.KEY_F10, ord("q"), ord("Q")]
